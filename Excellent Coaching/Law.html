@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- using google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- Own Css file linked -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Title -->
+    <title>Excellent Coaching</title>
+
+    <!-- Internal Css -->
+    <style>
+        .wob-title{
+            padding: 10px;
+            font-size: 30px;
+            font-weight: 300;
+            color: rgb(8, 8, 8);
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .contactus-box{
+            position: relative;
+            /* padding: 20px 0; */
+            display: flex;
+        }
+
+        .contactus-icon{
+            min-width: 60px;
+            height: 60px;
+            background: #232323;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+            color: #00B894;
+            margin-top: 50px;
+        }
+
+        .contactus-text{
+            display: flex;
+            margin-top: 50px;
+            margin-left: 50px;
+            font-size: 16px;
+            color: #232323;
+            flex-direction: column;
+            font-weight: 300;
+        }
+
+        .contactus-text p{
+            font-size: 15px;
+            font-weight: 500;
+            color: #232323;
+        }
+
+        .btn1{
+            color: #232323;
+            border: 1px solid #232323;
+            padding: 12px 34px;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            animation: moveright 2s linear 1;
+            animation-delay: 2s;
+            visibility: hidden;
+            animation-fill-mode: forwards;
+        }
+
+        .sub-p{
+            text-align: center;
+        }
+
+        .anchor-center{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Head or Home Section Start -->
+
+    <section class="header">
+
+        <nav>
+            <!-- logo image -->
+            <a href="home.html"><img src="images/logo.png" alt="logo"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <!-- close icon -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <!-- navbar links -->
+
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+            <!-- menu icon -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="wob-text-box">
+            <h1>Law Course</h1>
+        </div>
+
+    </section>
+
+    <!-- Head or Home Section End -->
+
+    <!-- Software Development Courses section start -->
+
+    <!-- section 1 -->
+
+    <div class="wob-section">
+
+        <div class="wob-container">
+
+            <div class="wob-content-section">
+
+                <div class="wob-title">
+                    <h1>What you will learn</h1>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <div class="wob-content" data-aos="zoom-in">
+
+                    <p>
+                        How, and by whom, international law is made, by whom it must be respected, and how it is applied 
+                        <br><br>
+                        What happens when binding rules are breached and how is it possible to seek justice in this world
+                    </p>
+
+                </div>
+
+
+            </div>
+
+            <div class="wob-image-section" data-aos="zoom-in">
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="far fa-book"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>Expert instruction</h3>
+                        <p>Graduate-level course</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="fas fa-user"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>Self-paced</h3>
+                        <p>Progress at your own speed</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="far fa-clock"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>3 years</h3>
+                        <p>10 hours per week</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="far fa-money-bill-alt"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>$199</h3>
+                        <p>Programme Fee</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- section 2 -->
+    <div class="accordion clearfix">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle1" class="accordion-toggle">
+            <label for="toggle1">Programme Overview</label>
+
+            <div class="accordion-content">
+                <p>
+                    International law can be considered as the law of the international community, the law that governs relations between States. But it also relates to what international organizations do and, increasingly, it concerns individuals, corporations, NGO's and other non-state actors.
+                </p>
+
+                <p>    
+                    As the world becomes more interdependent and more complex, and as new institutions are put in place to make international law more effective, international law has become an exciting, expanding field. Never before has it been so relied upon, used and developed. Despite their differences in size, power, culture, religion and ideologies, states rely on international law to cooperate and to coexist; they speak the language of international law and international law serves them as an important common language.
+                </p>
+
+                <p>
+                    This law course will extensively rely on judgments and advisory opinions of the International Court of Justice (ICJ), which is the principal judicial organ of the United Nations (UN).
+
+                </p>
+
+                <p>    
+                    Having acquired a basic knowledge of international law, you'll find it easier to comprehend this subject in future international law sub-fields, like international human rights, international humanitarian law or international investment law.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <hr>
+    <!-- section 3 -->
+
+    <div class="wob-title">
+        <h2>Courses in this Programme</h2>
+        <div class="testimonial-border"></div>
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle8" class="accordion-toggle">
+            <label for="toggle8">More Detail About This Programme</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>Subjects</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                What is International law
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">
+                                A brief history
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">
+                                International law as a common language
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <!-- table 2 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                States
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                International Organizations
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                United Nations
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- table 3 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Introduction: the theory of sources
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                The problem of International Law-making
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Customary International Law
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- table 4 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                International Treaties
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                The Validity of Treaties
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                General Principles
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                Unilateral Acts
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">        	         	
+                                Soft-Law
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                <!-- table 5 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Binding force of International Law
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Interpreting International Law
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Conflicting obligations
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                Applying International Law, including in domestic law
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <!-- table 6 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 6</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Attribution of Internationally Wrongful Act
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Responsibility and New Obligations
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Invoking Responsibility
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                The International Court of Justice (Procedure)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">
+                                The International Court of Justice (Jurisdiction)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">6</td>
+                            <td data-label="Name">
+                                The International Court of Justice (Jurisdiction)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">6</td>
+                            <td data-label="Name">
+                                The International Criminal Court
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <p>
+                    <div class="anchor-center">
+                        <a href="fee/Law.pdf" download="fee-structure" class="btn1">
+                            Download Course
+                        </a>         
+                    </div>
+                </p>
+              
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+
+    <!-- Software Development Courses section end -->
+
+
+
+
+    <!-- footer section start -->
+    <section class="wob-footer">
+
+        <div class="wob-fr1">
+
+            <div class="wob-fc1">
+
+                <img src="images/logo.png" class="wob-flogo">
+
+                <p>                    
+                    Excellent Coaching <br>
+                    Just For The Taste Of Dream
+                </p>
+
+            </div>
+
+            <div class="wob-fc1">
+
+                <h3>Office
+                    <div class="wob-funderline"><span></span></div>
+                </h3>
+
+                <p>Aptech Defence</p>
+                <p>Defence Commercial Area</p>
+                <p>Plot# 16, Anum Center. 1st Floor, PIN 71000, Pakistan</p>
+                <p class="wob-email-id">info-def@aptech-education.com.pk</p>
+                <h4>022-2108318-9</h4>
+
+            </div>
+
+            <div class="wob-fc1">
+
+                <h3>Links
+                    <div class="wob-funderline"><span></span></div>
+                </h3>
+
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+            <div class="wob-fc1">
+
+                <h3>Newsletter
+                    <div class="wob-funderline"><span></span></div>
+                </h3>
+
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter Your Email Id" required />
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+
+                <div class="wob-fsocial-icons">
+
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="wob-copy-rights"> Excellent Coaching &copy; 2021 - All Rights Reserved </p>
+
+    </section>
+
+    <!-- footer section end -->
+
+
+
+
+
+
+    <!-- Javascript for Opening and Closing Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

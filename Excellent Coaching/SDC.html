@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- using google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- Own Css file linked -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Title -->
+    <title>Excellent Coaching</title>
+
+    <!-- Internal Css -->
+    <style>
+        .wob-title{
+            padding: 10px;
+            font-size: 30px;
+            font-weight: 300;
+            color: rgb(8, 8, 8);
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .contactus-box{
+            position: relative;
+            /* padding: 20px 0; */
+            display: flex;
+        }
+
+        .contactus-icon{
+            min-width: 60px;
+            height: 60px;
+            background: #232323;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+            color: #00B894;
+            margin-top: 50px;
+        }
+
+        .contactus-text{
+            display: flex;
+            margin-top: 50px;
+            margin-left: 50px;
+            font-size: 16px;
+            color: #232323;
+            flex-direction: column;
+            font-weight: 300;
+        }
+
+        .contactus-text p{
+            font-size: 15px;
+            font-weight: 500;
+            color: #232323;
+        }
+
+        .btn1{
+            color: #232323;
+            border: 1px solid #232323;
+            padding: 12px 34px;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            animation: moveright 2s linear 1;
+            animation-delay: 2s;
+            visibility: hidden;
+            animation-fill-mode: forwards;
+        }
+
+        .sub-p{
+            text-align: center;
+        }
+
+        .anchor-center{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Head or Home Section Start -->
+
+    <section class="header">
+
+        <nav>
+            <!-- logo image -->
+            <a href="home.html"><img src="images/logo.png" alt="logo"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <!-- close icon -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <!-- navbar links -->
+
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+            <!-- menu icon -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="wob-text-box">
+            <h1>Computer Science Programme</h1>
+            <p class="wob-p-bold">Learn the design approaches to <br> software engineering</p>
+
+        </div>
+
+    </section>
+
+    <!-- Head or Home Section End -->
+
+    <!-- Software Development Courses section start -->
+
+    <!-- section 1 -->
+
+    <div class="wob-section">
+
+        <div class="wob-container">
+
+            <div class="wob-content-section">
+
+                <div class="wob-title">
+                    <h1>What you will learn</h1>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <div class="wob-content" data-aos="zoom-in">
+
+                    <p>
+                        How to develop Programmes that are well tested and easy to modify. <br><br>
+                        To structure the development of large software systems using abstraction and decomposition. <br><br>
+                        To quickly write and revise code using programming tools.<br><br>
+                        How to do full-stack software development using an agile approach in a pair or team.<br><br>
+                        Popular languages Java and Typescript, and the ability to quickly learn new ones.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+            <div class="wob-image-section" data-aos="zoom-in">
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="far fa-book"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>Expert instruction</h3>
+                        <p>Graduate-level course</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="fas fa-user"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>Self-paced</h3>
+                        <p>Progress at your own speed</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="far fa-clock"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>3 years</h3>
+                        <p>10 hours per week</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactus-box">
+                    
+                    <div class="contactus-icon"><i class="far fa-money-bill-alt"></i></div>
+
+                    <div class="contactus-text">
+
+                        <h3>$832.50</h3>
+                        <p>Programme Fee</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- section 2 -->
+    <div class="accordion clearfix">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle1" class="accordion-toggle">
+            <label for="toggle1">Programme Overview</label>
+
+            <div class="accordion-content">
+                <p>
+                    Speed is critical in software development. Successful developers are those who are able to quickly learn new technologies and new software systems, and they do this by seeing any software  in any programming language as common repeating patterns, not just detailed lines of code.
+                </p>
+
+                <p>    
+                    In this MicroMasters Programme, you will learn this same kind of expert thinking. By working through several software development projects, you will learn specific technologies, including Java, JUnit, IntelliJ IDEA, Typescript and Node.js. But even more important, you will develop the ability to see the common structures in Programmes and in tools and learn how to apply these skills to master new technologies quickly.
+                </p>
+
+                <p>
+                    Upon completion of this Programme, you will be able to write Programmes using a systematic approach and to design Programmes that are easy to maintain. You will also learn how to use agile methods in order to build software Programmes that solve real world problems.
+                </p>
+
+                <p>    
+                    With the skills obtained in this Programme, you will have the confidence to apply for positions that use any programming language or technology.
+                </p>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <hr>
+    <!-- section 3 -->
+
+    <div class="wob-title">
+        <h2>Courses in this Programme</h2>
+        <div class="testimonial-border"></div>
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle2" class="accordion-toggle">
+            <label for="toggle2">How to Code: Simple Data</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>About this course</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    This programming course takes a unique approach, as it focuses on learning a systematic programming method rather than a programming language. This practical approach will help you channel your creativity so that you can program well in any language.
+                </p>
+
+                <p>    
+                    This course, part of the Software Development MicroMasters Programme, presents a core design method with a focus on numbers, strings, images and lists.
+                </p>
+
+                <p>
+                    You will learn techniques to:<br>
+                    Develop program requirements.<br>
+                    Produce programs with consistent structure that are easy to modify later.<br>
+                    Make your programs more reliable by building tests as an integral part of the programming process.
+
+                </p>
+
+                <p>    
+                    This course concludes with the design of a simple interactive game.<br><br>
+                    Learners who enroll in the Verified track will receive staff grading for the course project and increased interaction with the instructor and staff.
+                </p>
+
+                <div class="wob-title">
+                    <h3>What you'll learn</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    How to represent information as data.<br><br>
+                    How to focus each part of your program on a single task.<br><br>
+                    How to use examples and tests to clarify what your program should do.<br><br>
+                    How to simplify the structure of your program using common patterns.<br><br>
+                    Recognize and represent more complicated information.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle3" class="accordion-toggle">
+            <label for="toggle3">How to Code: Complex Data</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>About this course</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    As your program requirements get more complex, you will find that simple additions to the design method make it easy to write well-structured and well-tested code that is easy to maintain.
+                </p>
+
+                <p>    
+                    By learning how to capture common data and control structures using abstraction, your programs will get shorter and better tested.
+                </p>
+
+                <p>
+                    You will also learn how to design search programs. You will design a program to solve Sudoku puzzles, and will be able to design many other puzzle solvers as well.
+
+                </p>
+
+                <div class="wob-title">
+                    <h3>What you'll learn</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    How to identify commonalities in data definitions and functions. <br><br>
+                    How to avoid repetition using abstraction.<br><br>
+                    How to design functions that operate on graphs.<br><br>
+                    How to design programs that search a given problem space to find a valid solution.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle4" class="accordion-toggle">
+            <label for="toggle4">Software Construction: Data Abstraction</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>About this course</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    This is the third course in the Software Development MicroMasters program. You will learn how to build larger and more complex software systems using the Java programming language.
+                </p>
+
+                <p>    
+                    The course begins with the topic of data abstraction - from specification to implementation. Particular attention is given to how to write robust tests using JUnit. Then the course expands on these ideas to explore how type hierarchies and polymorphism can be used to decrease redundancy in your code. The course wraps up with a discussion of how to design robust classes.
+                </p>
+
+                <p>
+                    By the end of the course, you will have a solid foundation in designing software in Java, and be ready to move onto Software Construction: Object-Oriented Design, where you will learn more complex design patterns and principles designing object-oriented programs.
+
+                </p>
+
+                <div class="wob-title">
+                    <h3>What you'll learn</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    How to read and write Java programs. <br><br>
+                    How to test Java programs with JUnit.<br><br>
+                    To build larger software systems using abstraction and decomposition.<br><br>
+                    How to specify, implement, use and test a data abstraction.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle5" class="accordion-toggle">
+            <label for="toggle5">Software Construction: Object-Oriented Design</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>About this course</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    This course, part of the Software Development program, will dig deep into the principles of object oriented design, and introduce new abstraction techniques and design patterns. You will use these techniques to build an application that makes use of popular online services and APIs the most complex software design project so far.
+                </p>
+
+                <p>    
+                    By the end of the course, you will have a solid foundation in Java and Object-Oriented Design, as well as many software development concepts that can be applied to any language.
+                </p>
+
+                <div class="wob-title">
+                    <h3>What you'll learn</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    How to read and use software design patterns. <br><br>
+                    To implement and test an object-oriented design.<br><br>
+                    How to develop an application using online services and APIs.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle6" class="accordion-toggle">
+            <label for="toggle6">Software Engineering: Introduction</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>About this course</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    This course, part of the Software Development MicroMasters Program, introduces how teams design, build, and test multi-version software systems.
+                </p>
+
+                <p>    
+                    You will learn software engineering principles that are applicable to the breadth of large-scale software systems. The course explores topics such as agile development, REST and Async programming, software specification, design, refactoring, information security, and more. By the end of this course, learners will work in teams, applying an agile software development process to specify, design, and test multiple versions of complex software systems.
+                </p>
+
+                <div class="wob-title">
+                    <h3>What you'll learn</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    How to build a non-trivial software system using an agile approach in a pair or team. <br><br>
+                    Techniques for specifying the functional and non-functional aspects of a software system.<br><br>
+                    Techniques for designing and testing a software system.<br><br>
+                    The role of refactoring in building a quality system.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle7" class="accordion-toggle">
+            <label for="toggle7">Software Development Capstone Project</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>About this course</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    In this project course, the final course in the Software Development MicroMasters program, you will learn how to input, manipulate, and return data with a modern web development stack. Using TypeScript and Node, you will manipulate large amounts of information using a domain-specific querying language. Backend, REST, and front-end technologies will be required to successfully complete the project
+                </p>
+
+                <p>    
+                    In teams, students will work through the project in several sprints. In each sprint, students will produce a deliverable that is evaluated using an automated test suite. The feedback you will receive from this suite will be limited. To succeed at the project you will need to create your own private test suite to further validate each deliverable.
+                </p>
+
+                <p>    
+                    By working through such a large-scale development project, you will learn technical development skills, and gain experience with how teams develop software in the industry.
+                </p>
+
+                <div class="wob-title">
+                    <h3>What you'll learn</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <p>
+                    Full-stack web development using Typescript and Node.js.
+                    How teams of developers build software.
+                    Agile methodology.
+                    Hands on experience building a non-trivial software system.
+                </p>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-tab">
+
+            <input type="checkbox" name="toggle" id="toggle8" class="accordion-toggle">
+            <label for="toggle8">More Detail About This Programme</label>
+
+            <div class="accordion-content">
+
+                <div class="wob-title">
+                    <h3>Subjects</h3>
+                    <div class="testimonial-border"></div>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Introduction to Programming
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">
+                                Introduction to Computing
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">
+                                Calculus-I with Plane Geometry
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                English Grammar & Composition
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">        	         	        	
+                                Object Oriented Programming Techniques
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                <!-- table 2 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Speech Communication
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Introduction to Statistics
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Discrete Mathematics
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                Calculus-II with Solid Geometry
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">        	         	
+                                Digital Logic Design
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                <!-- table 3 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Data Structures
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Linear Algebra
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Numerical Analysis
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                General Elective-I
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">        	         	
+                                Introduction to Artificial Intelligence
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                <!-- table 4 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Computer Communication & Networking
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Theory of Automata
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Computer Architecture & Assembly Language
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                Socioeconomic Philosophy of Islam or Pakistan History
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">        	         	
+                                CS Elective-I
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                <!-- table 5 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Software Engineering
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Operating Systems
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                Database Systems
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                Business Communication
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">
+                                Design & Analysis of Algorithm
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                <!-- table 6 -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Semester 6</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="S.No">1</td>
+                            <td data-label="Name">
+                                Systems Programming
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">2</td>
+                            <td data-label="Name">      	
+                                Systems Programming
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">3</td>
+                            <td data-label="Name">	
+                                CS Elective-III
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">4</td>
+                            <td data-label="Name">
+                                General Elective-II
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="S.No">5</td>
+                            <td data-label="Name">
+                                Final Year Project - CS
+                            </td>
+                      </tr>
+
+                    </tbody>
+                </table>
+
+                <p>
+                    <div class="anchor-center">
+                        <a href="fee/BSCS.pdf" download="fee-structure" class="btn1">
+                            Download Course
+                        </a>         
+                    </div>
+                </p>
+              
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+
+    <!-- Software Development Courses section end -->
+
+
+
+
+    <!-- footer section start -->
+    <section class="wob-footer">
+
+        <div class="wob-fr1">
+
+            <div class="wob-fc1">
+
+                <img src="images/logo.png" class="wob-flogo">
+
+                <p>                    
+                    Excellent Coaching <br>
+                    Just For The Taste Of Dream
+                </p>
+
+            </div>
+
+            <div class="wob-fc1">
+
+                <h3>Office
+                    <div class="wob-funderline"><span></span></div>
+                </h3>
+
+                <p>Aptech Defence</p>
+                <p>Defence Commercial Area</p>
+                <p>Plot# 16, Anum Center. 1st Floor, PIN 71000, Pakistan</p>
+                <p class="wob-email-id">info-def@aptech-education.com.pk</p>
+                <h4>022-2108318-9</h4>
+
+            </div>
+
+            <div class="wob-fc1">
+
+                <h3>Links
+                    <div class="wob-funderline"><span></span></div>
+                </h3>
+
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+            <div class="wob-fc1">
+
+                <h3>Newsletter
+                    <div class="wob-funderline"><span></span></div>
+                </h3>
+
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter Your Email Id" required />
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+
+                <div class="wob-fsocial-icons">
+
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="wob-copy-rights"> Excellent Coaching &copy; 2021 - All Rights Reserved </p>
+
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- Javascript for Opening and Closing Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

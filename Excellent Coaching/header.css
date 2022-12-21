@@ -1,0 +1,22 @@
+.header{
+    min-height: 45vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2,3,5,0.7),rgba(2,3,5,0.7)),
+    url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to right, rgb(35, 36, 37), rgb(4, 12, 15));
+    color: #f9f9f9;
+    padding: 100px 0 30px;
+    border-top-left-radius: 90px;
+    font-size: 13px;
+    line-height: 20px;
+    bottom: 0;
+}
