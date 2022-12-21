@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--AOS animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--CDN For CounterUp plugin-->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+  <title>Festival.com</title>
+  <!-- customize Css -->
+  <link rel="stylesheet" href="newstyle.css">
+
+</head>
+<!-- The Scrollspy plugin is used to automatically update links in a navigation list based on scroll position -->
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <!-- Navbar starts -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand" href="#home"><span class="logo">F</span>estival.</a>
+      <!-- toggle navbar -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <!-- navbar button with links starts -->
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#religions">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#knowledge">Knowledge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Feedback.html"target="_blank">Feedback</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar buttons with links ends -->
+
+  <!-- hero section with image & animation starts-->
+  <section id="home" class="bg-cover hero-section" style="background-image:url(images/banner4.jpg)">
+    <div class="overlay"></div>
+    <div class="container text-white text-center">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up">
+          <h1 class="display-4" data-aos="zoom-in">Religious Festivals Around <br>The World</h1>
+          <p class="my-4" data-aos="fade-up">All religions in the world have festivals. Festivals are universal.
+            <br> There are an innumerable number of festivals in the world.
+          </p>
+          <!-- contents starts click on button -->
+          
+          <a href="#religions" class="btn btn-main">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero section with image & animation ends-->
+
+  <!-- Gallery  banner section starts -->
+  <section id="religions" class="text-center">
+    <div class="container">
+      <!-- Gallery section head starts -->
+      <div class="row">
+        <div class="col-12 section-intro text-center">
+          <h1>Gallery</h1>
+          <div class="devider"></div>
+          <p class="relg-para">The world's primary religions fall into two categories: Abrahamic religions, such as
+            Christianity, Judaism, and Islam; and Indian religions, which include Hinduism, Buddhism, Sikhism,</p>
+        </div>
+      </div>
+      <!-- Gallery banner section head ends -->
+
+      <!-- different religion gallery starts -->
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="religion">
+            <div class="religion-img">
+              <img src="images/christanity4.jpg" class="rounded-3" alt="">
+            </div>
+            <!-- link of christian festivals -->
+            <a href="Gallery.html" data-aos="fade-up" class="btn btn-main mt-3 mb-3">Christianity</a>
+            <p> Christianity is the largest, with more than two billion followers. Christianity is based on the life and
+              teachings of Jesus Christ and is approximately 2,000 years old.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="religion">
+            <div class="religion-img">
+              <img src="images/mosque4.jpg" class="rounded-3" alt="">
+
+            </div>
+            <!-- link of islam festivals -->
+            <a href="islam.html" data-aos="fade-up" class="btn btn-main mt-3 mb-3">Islam</a>
+            <p>Islamic statement of witness, or shahada, “There is no god but Allah”. Muslims believe he created the
+              world in six days and sent prophets such as Noah, Abraham, Moses, David, Jesus, and lastly Muhammad, who
+              called people to worship only him, rejecting idolatry and polytheism.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="religion">
+            <div class="religion-img">
+              <img src="images/hindhuism4.jpg" class="rounded-3" alt="">
+
+            </div>
+            <!-- link of hindu festivals -->
+            <a href="hindu.html" data-aos="fade-up" class="btn btn-main mt-3 mb-3">Hinduism</a>
+            <p>Hindus believe in the doctrines of samsara (the continuous cycle of life, death, and reincarnation) and
+              karma (the universal law of cause and effect). One of the key thoughts of Hinduism is “atman,” or the
+              belief in soul. This philosophy holds that living creatures have a soul, and they're all part of the
+              supreme soul</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="religion">
+            <div class="religion-img">
+              <img src="images/buddhism4.jpg" class="rounded-3" alt="">
+
+            </div>
+            <!-- link of buddhist festivals -->
+            <a href="buddhist.html" data-aos="fade-up" class="btn btn-main mt-3 mb-3">Buddhism</a>
+            <p> Buddhism is an Indian religion or philosophical tradition based on a series of original teachings
+              attributed to Gautama Buddha. It originated in ancient India as a Sramana tradition sometime between the
+              6th and 4th centuries BCE, spreading through much of Asia.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="religion">
+            <div class="religion-img">
+              <img src="images/sikhism4.jpg" class="rounded-3" alt="">
+
+            </div>
+            <!-- link of sikhism festivals -->
+            <a href="sikhism.html" data-aos="fade-up" class="btn btn-main mt-3 mb-3">Sikhism</a>
+            <p>
+              Sikhs commonly call God, Waheguru (Wa-HEY-guru). Sikhs regard men and women as equal in all spheres of
+              life • Sikhs believe in equality amongst all human beings regardless of race or caste. The freedom to
+              choose and practice religion freely is at the foundation of Sikhism.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="religion">
+            <div class="religion-img">
+              <img src="images/judaism4.jpg" class="rounded-3" alt="">
+            </div>
+            <!-- link of judaism festivals -->
+            <a href="judaism.html" data-aos="fade-up" class="btn btn-main mt-3 mb-3">Judaism</a>
+            <p>Judaism is an Abrahamic, monotheistic, and ethnic religion comprising the collective religious, cultural,
+              and legal tradition and civilization of the Jewish people. It has its roots as an organized religion in
+              the Middle East during the Bronze Age.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery section ends-->
+
+  <!-- Knowledge section with links starts-->
+  <section id="knowledge" class="bg-cover" style="background-image:url(images/banner4.jpg)">
+    <div class="overlay"></div>
+    <div class="container text-white text-center">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <h1>Knowledge</h1>
+          <div class="devider"></div>
+          <ul class="history">
+            <li><a href="knowledge.html #christianity" data-toggle="tooltip" data-placement="top"
+                title="Click to read more">History of Christianity</a></li>
+            <li><a href="knowledge.html #muslim" data-toggle="tooltip" data-placement="top"
+              title="Click to read more">History of Islam</a></li>
+            <li><a href="knowledge.html #hindhuism" data-toggle="tooltip" data-placement="top"
+              title="Click to read more">History of Hindhuism</a></li>
+            <li><a href="knowledge.html #buddhism" data-toggle="tooltip" data-placement="top"
+              title="Click to read more">History of Buddhism</a></li>
+            <li><a href="knowledge.html #sikhism" data-toggle="tooltip" data-placement="top"
+              title="Click to read more">History of Sikhism</a></li>
+            <li><a href="knowledge.html #judaism" data-toggle="tooltip" data-placement="top"
+              title="Click to read more">History of Judaism</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Knowledge section with links ends-->
+
+  <!-- books section starts -->
+  <section id="book" class="text-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <h1>Books</h1>
+          <div class="devider"></div>
+          <p>The world's primary religions fall into two categories: Abrahamic religions, such as Christianity, Judaism,
+            and Islam; and Indian religions, which include Hinduism, Buddhism, Sikhism,</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="book-sec">
+        <div class="box" data-aos="fade-up">
+          <div class="imgbx">
+            <img src="book-images/christian.jpg">
+          </div>
+          <div class="text">
+            <div class="text">
+              <p>Christian Festival</p>
+              <!-- rating stars icons with each book -->
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <p>$9.5</p>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+
+          <div class="imgbx">
+            <img src="book-images/islam.jpeg">
+          </div>
+          <div class="text">
+            <p>Islam Festival</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>$9.5</p>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+          <div class="imgbx">
+            <img src="book-images/hindhu.jpeg">
+          </div>
+          <div class="text">
+            <div class="text">
+              <p>Hindhu Festival</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <p>$8.5</p>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up">
+          <div class="imgbx">
+            <img src="book-images/buddhist.jpeg">
+          </div>
+          <div class="text">
+            <div class="text">
+              <p>Buddhist Festival</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <p>$7.5</p>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+          <div class="imgbx">
+            <img src="book-images/sikh.jpeg">
+          </div>
+          <div class="text">
+            <div class="text">
+              <p>Sikh Festival</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <p>$5.5</p>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+          <div class="imgbx">
+            <img src="book-images/jewish.jpeg">
+          </div>
+          <div class="text">
+            <div class="text">
+              <p>jewish Festival</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <p>$4.5</p>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- books section (dummy) ends-->
+
+  <!-- counter section with symbols starts -->
+  <section class="bg-cover  counter-bg" style="background-image:url(images/banner4.jpg)">
+    <div class="overlay"></div>
+    <div class="container text-white text-center counterUp">
+      <h1 class="mb-5">Religion Followers</h1>
+      <div class="devider"></div>
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-2">
+          <div class="symbol">
+            <img src="relegion symbol/cross.png" alt="">
+            <p>Christian</p>
+            <h1 class="mt-3 mb-2 counterup">2.3</h1>
+            <p>billion</p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="symbol">
+            <img src="relegion symbol/islam.png" alt="">
+            <p>Islam</p>
+            <h1 class="mt-3 mb-2 counterup">1.91</h1>
+            <p>billion</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="symbol">
+            <img src="relegion symbol/hindu.png" alt="">
+            <p>Hindhuism</p>
+            <h1 class="mt-3 mb-2 counterup">1.16</h1>
+            <p>billion</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="symbol">
+            <img src="relegion symbol/dharma-wheel.png" alt="">
+            <p>Buddhism</p>
+            <h1 class="mt-3 mb-2 counterup">470</h1>
+            <p>million</p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="symbol">
+            <img src="relegion symbol/khanda.png" alt="">
+            <p>Sikhism</p>
+            <h1 class="mt-3 mb-2 counterup">20</h1>
+            <p>million</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="symbol">
+            <img src="relegion symbol/star-of-david.png" alt="">
+            <p>Judaism</p>
+            <h1 class="mt-3 mb-2 counterup">15</h1>
+            <p>million</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- counter sedtion ends -->
+
+  <!--Footer section with navbar links and site map starts-->
+  <footer class="bg-light text-secondary pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Festival</h5>
+          <p style="text-align: justify;">This website contains the knowledge of major religion and related festivals celebrated through out the
+            world .</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">OFFICE</h5>
+          <p>Defence
+            Defence Commercial Area
+            Plot# 16, Anum Center. 1st Floor, PIN 71000, Pakistan</p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Links</h5>
+          <p>
+            <a href="#home"> Home</a>
+          </p>
+          <p>
+            </i><a href="#gallery"> Gallery</a>
+          </p>
+
+          <p>
+            <a href="#knowledge"> Knowledge</a>
+          </p>
+          <p>
+            <a href="#book"> Books</a>
+          </p>
+          <p>
+          <a href="Feedback.html">Feedback</a>
+          </p>
+          <p>
+            <a href="contactus.html">Contact Us</a>
+            </p>
+
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <!-- site Map -->
+            <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Site Map</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14418.182098168207!2d68.36970025!3d25.38654385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1645974517623!5m2!1sen!2s"
+              width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </div>
+      <hr class="mb-4">
+      <div class="row align-item-center">
+        <div class="col-md-7 col-lg-8">
+          <p>Copyright 2022 All right reserved by:
+            <a href="#home" style="text-decoration:none;">
+              <strong class="text-black">Festival.com</strong>
+            </a>
+          </p>
+        </div>
+        <!-- social icons -->
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-whatsapp"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest"></i>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top button takes user directly on top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- scroll bottom to top code in javaScript starts here -->
+    <script>//Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+    <!-- tooltip for notification -->
+    <script>
+      $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+    <!-- scroll bottom to top code in javaScript ends here -->
+  </footer>
+  <!--Footer section ends -->
+
+  <!-- jQuery link -->
+  <!-- counter up for religion followers starts here  -->
+  <script>
+    $(".counterup").counterUp({ time: 2000 });
+  </script>
+  <!-- counter up for religion followers ends here  -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>

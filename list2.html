@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> add element and remove element from the list</title>
+	<link rel="stylesheet" type="text/css" href="list.css">
+</head>
+
+
+<body>
+
+<center>
+	
+<form> <h1> ---:To Do List:---</h1>
+<input type="text" name ="text" id="text" required>
+<button type="submit" class="btn-list" onclick = "add()"> +
+	
+</button>
+
+
+
+<div class="list">
+	
+	<ol id="itemList">
+		
+		
+		
+	</ol> <input  type="reset" value="Clear" >
+</div>
+</form>
+</center>
+<script>
+	
+	const input = document.querySelector('#text');
+	const button1 = document.querySelector('.btn-list');
+    const L1 = document.querySelector('.list ol');
+
+    button1.addEventListener('click',(e)=>{
+
+    if(input.value != " ") {
+    	e.preventDefault();
+    
+    const myli = document.createElement('li');
+    myli.innerHTML=input.value;
+    l1.appendChild(myli)
+
+}} );
+
+function add(){
+
+       
+	var item = document.getElementById('text').value;
+	var ol = document.getElementById('itemList')
+	var li = document.createElement('li');
+       
+// Color and font feature
+ var fontFamily = ['Arial Black', 'Times New Roman', 'Courier', 'Courier New', 'Book Antiqua']
+        var fontColors = ['blue', 'black', 'brown' , 'red', 'pink', 'purple', 'grey', 'tomato', 'blush', 'golden', 'orange', 'periwinkle', 'maroon', 'violet', 'silver']
+	var numForStyle = Math.floor(Math.random() * 5);
+       var numForColor = Math.floor(Math.random() * 15);
+	
+var span = document.createElement('span');
+
+span.style.color = fontColors[numForColor];
+span.style.fontFamily = fontFamily[numForStyle]
+
+
+// appending items to the list
+span.appendChild(document.createTextNode(item))
+    li.appendChild(span);
+  
+var btn = document.createElement("BUTTON");
+  btn.innerHTML = "X";
+ li.appendChild(btn)
+
+btn.addEventListener("click", function(){
+  ol.removeChild(li) 
+});
+    ol.appendChild(li);
+}
+</script>
+
+</body>
+</html>
